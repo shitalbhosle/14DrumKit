@@ -1,0 +1,46 @@
+body{
+    background-color: #251B37;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #FFCACA;
+    color:transparent;
+   
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+.tom1,.tom2,.tom3,.tom4,.snare,.crash,.kick{
+    height: 100px;
+    width: 100px;
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 500;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center; 
+    margin: 5px;
+    background-color: white;
+    
+}
+@media only screen and (max-width: 480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
